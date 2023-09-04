@@ -1,0 +1,30 @@
+import React from "react"
+
+function App(){
+    const handleInput=(value)=>{
+        console.log(value);
+    };
+
+    return (
+        <div>
+            <input 
+                type="text"
+                onChange={(e)=>handleInput(e.target.value)}
+            />
+        </div>
+    )
+}
+
+
+function App(){
+    const [name,setName]=useState("");
+    return (
+        <div>
+            <input 
+                name={name}
+                onChange={(e)=>setName(e.target.name)}
+            />
+        </div>
+    )
+}
+

@@ -1,0 +1,8 @@
+use functional components and hooks
+reusable components 
+code splitting and lazy loading 
+minimize re-renders -> shouldComponentUpdate 
+minimize api calls by batching requests and caching data whenever required
+use a CDN 
+compress and optimize images to reduce file size
+css optimization 

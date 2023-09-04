@@ -1,0 +1,50 @@
+virtual dom 
+It is a lightweight representation of the real dom
+
+
+
+
+
+dom -> represents the content of an XML or HTML document as a tree structure (internally in the memory)
+using dom we can easily read, access update the content of the document
+
+how to access the dom elements 
+getElementsByTagName
+getElementsById
+
+
+<books>
+
+<book>
+    <author> </author>
+    <pubDate> </pubDate>
+</book>
+
+    <pubInfo>
+    </pubInfo>
+</books>
+
+
+
+use of keys
+used as a unique identifier 
+
+const itemsList=()=>{
+    return (
+        <ul>
+            <{items.map(item)=>{
+                <li key={item.id}> {item.name} </li>
+            }}
+        </ul>
+    )
+}
+
+
+
+function listItems(){
+    <ul>    
+        <{items.map(item)=>{
+            <li key={item.id}>{item.name}</li>
+        }}
+    </ul>
+}
